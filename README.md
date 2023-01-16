@@ -24,7 +24,9 @@ url = "http://0.0.0.0:8000/"
 res = requests.request("GET", url, data=payload, headers=headers)
 
 ### 2. Colour Content
-2.1 
+
+2.1
+
     url = "http://0.0.0.0:8000/color-content-file/"
     payload = "SOME IMAGE FILE"
     res = requests.request("POST", url, data=payload)
@@ -32,6 +34,7 @@ res = requests.request("GET", url, data=payload, headers=headers)
     returns an image file reponse with the processed result stored in the cookies and headers of the response object.
 
 2.2 
+
     url = "http://0.0.0.0:8000/color-content-json/"
     payload = "SOME IMAGE FILE"
     res = requests.request("POST", url, data=payload)
@@ -39,7 +42,9 @@ res = requests.request("GET", url, data=payload, headers=headers)
     returns the result in JSON form reponse with the image encoded in base64 inside the json object(decode the string to get back the image).
 
 ### 3. Colorfulness
+
 3.1
+
     url = "http://0.0.0.0:8000/colorfulness-file/"
     payload = "SOME IMAGE FILE"
     response = requests.request("POST", url, data=payload)
@@ -55,7 +60,9 @@ res = requests.request("GET", url, data=payload, headers=headers)
     returns the result in JSON form reponse with the image encoded in base64 inside the json object(decode the string to get back the image).
 
 ### 3. Edge Features
+
 3.1
+
     url = "http://0.0.0.0:8000/edge-file/"
     payload = "SOME IMAGE FILE"
     response = requests.request("POST", url, data=payload, headers=headers)
