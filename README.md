@@ -20,8 +20,8 @@ There are Seven End-Points in total, Details Below;
 
 ### 1. Home / Welcome End-Point
 
-url = "http://0.0.0.0:8000/"
-res = requests.request("GET", url, data=payload, headers=headers)
+    url = "http://0.0.0.0:8000/"
+    res = requests.request("GET", url, data=payload, headers=headers)
 
 ### 2. Colour Content
 
