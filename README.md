@@ -11,7 +11,7 @@ A simple api to to extract features from your image, built with python and FastA
 ## How To Run
 The main thing you need to run FastAPI application in a remote server machine is an ASGI server program like `UVICORN`
 In the directory where you the `main.py file` RUN:
-**uvicorn main:app --host="0.0.0.0" --port=8000**
+`uvicorn main:app --host="0.0.0.0" --port=8000`
 
 
 
