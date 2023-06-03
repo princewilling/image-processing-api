@@ -1,6 +1,6 @@
 # Image Proecessing API
 
-A simple api to to extract features from your image, built with python and FastAPI.
+A simple API to to extract features from your image, built with Python and FastAPI.
 
 ## Core functionality
 - Intensity Features
